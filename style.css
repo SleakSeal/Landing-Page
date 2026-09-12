@@ -10,3 +10,11 @@ body {
     font-size: 24px;
     color: #F9FAF8;
 }
+ul a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    
+}
