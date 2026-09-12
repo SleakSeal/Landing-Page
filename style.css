@@ -2,12 +2,9 @@ body{
     font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
-    height: 100%;
 }
 html {
-    width: 100vw;
-    min-height: 100vw;
+
     box-sizing: border-box;
 }
 
@@ -60,4 +57,9 @@ ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.footer{
+    margin-top: 29em;
+    display: flex;
+    justify-content: center;
 }
