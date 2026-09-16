@@ -83,20 +83,22 @@ button {
     width: 160px;
     text-align: center;
     flex: 0 0 160px;
+    max-width: 200px;
     
 }
 .info-card p{
     margin: 8px 0 0;
     width: 180px;
     overflow-wrap: break-word;
+    
 
 }
 .info-images{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
     margin: 0 auto;
+    gap: 52px;
     
     
     
