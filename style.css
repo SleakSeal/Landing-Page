@@ -99,7 +99,26 @@ button {
     align-items: center;
     margin: 0 auto;
     gap: 52px;
-    
-    
-    
+}
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    padding: 40px;
+    margin: 0 auto;
+}
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 1000px;
+}
+.quote-teller{
+    font-weight: 900;
+   margin-top: 200px;
+   margin-right: 450px;
 }
