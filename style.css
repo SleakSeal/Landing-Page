@@ -2,6 +2,8 @@ body {
     font: Roboto, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 .header{
     background-color: #1F2937;
@@ -89,7 +91,7 @@ button {
 }
 .info-card p{
     margin: 8px 0 0;
-    width: 180px;
+    width: 160px;
     overflow-wrap: break-word;
     
 
@@ -97,20 +99,17 @@ button {
 .info-images{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 auto;
     gap: 52px;
-    margin-bottom: 70px;
-    margin-top: 80px;
+    margin: 80px auto 70px;
 }
 .quote-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    flex-wrap: wrap;
     background-color: #E5E7EB;
-    padding: 40px;
+    padding: 100px 0;
+}
+.quote-content{
+    max-width: 800px;
     margin: 0 auto;
 }
 .quote{
@@ -118,24 +117,48 @@ button {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    max-width: 1000px;
 }
 .quote-teller{
     font-weight: 900;
-   margin-top: 200px;
-   margin-right: 450px;
+    text-align: right;
+    margin-top: 10px;
+}
+.bottom{
+    padding: 70px 0;
 }
 .bottom-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 70px;
     background-color: #3882F6;
     color: #F9FAF8;
+    max-width: 770px;
+    margin: 0 auto;
+    padding: 40px 90px;
+    border-radius: 8px;
 }
 .bottom-header{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0;
+}
+.bottom-text{
+    margin: 4px 0 0;
+}
+.bottom-text-container{
     display: flex;
+    flex-direction: column;
+}
+.bottom-container button{
+    border: 2px solid #F9FAF8;
+    padding: 8px 30px;
+}
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
     
-    border-radius: 8px;
-    padding: 20px;
 }
